@@ -10,7 +10,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cors({
-  origin: 'http://127.0.0.1:5500', 
+  origin: 'https://shree-ramalingeshwara-swamy-temple.onrender.com', 
 }));
 
 app.use(express.static(path.join(__dirname, 'public')));
