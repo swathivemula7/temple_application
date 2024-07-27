@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const formData = new FormData(form);
     const data = Object.fromEntries(formData.entries());
 
-    fetch('http://localhost:5000/send-email', {
+    fetch('https://shree-ramalingeshwara-swamy-temple.onrender.com/send-email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
