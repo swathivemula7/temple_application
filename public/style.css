@@ -1309,4 +1309,9 @@ ul.contact-info span {
   .chatbox-content {
     height: 300px; 
   }
+
+   .chatbox-input-container input {
+    width: 70%;
+    margin-bottom: 10px;
+  }
 }
