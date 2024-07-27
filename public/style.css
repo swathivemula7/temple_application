@@ -23,6 +23,7 @@ body{
   background-color: #f0f4f8;
   color: #333; /* Dark text color for readability */
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 .btn {
