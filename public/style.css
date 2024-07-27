@@ -1036,8 +1036,8 @@ ul.contact-info span {
   .main-image {
     width: 320px; 
     height: 400px; 
-    top: -55%;
-    left: -1%;
+    top: -60%;
+    left: -45%;
     transform: translate(50%, 50%);
     z-index: 2;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.4); 
