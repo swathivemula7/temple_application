@@ -29,3 +29,8 @@ Nodemailer: For sending emails via the contact form.
 CORS: To handle Cross-Origin Resource Sharing.
 Voice Feature
 Web Speech API: For implementing voice interaction in the chatbot.
+
+Acknowledgements
+Nodemailer: For email handling.
+Web Speech API: For enabling voice features.
+Express.js: For the backend framework.
