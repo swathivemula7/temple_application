@@ -1094,12 +1094,6 @@ ul.contact-info span {
   }
 }
 
-/* For screens wider than 1024px */
-@media (min-width: 1024px) {
-  .event__grid {
-    gap: 2rem;
-  }
-}
 
 /* For screens wider than 576px */
 @media (min-width: 576px) {
