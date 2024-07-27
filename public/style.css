@@ -305,7 +305,7 @@ nav {
  width: 100%; /* Adjust size as needed */
   height: 100%; /* Adjust size as needed */
     top: -3em; /* Ensure it starts from top */
-  left: -0.2em; /* Ensure it starts from left */
+  left: -0.1em; /* Ensure it starts from left */
   transform: translate(0,0);
  
 }
@@ -397,7 +397,7 @@ nav {
 }
 
 .highlight__header{
-  margin-left: -0.3em;
+  margin-left: -0.7em;
 }
 
 .highlight__container {
