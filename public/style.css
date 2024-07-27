@@ -305,7 +305,7 @@ nav {
  width: 100%; /* Adjust size as needed */
   height: 100%; /* Adjust size as needed */
     top: -3em; /* Ensure it starts from top */
-  right: 1em;
+  right: 0.5em;
   transform: translate(0,0);
  
 }
