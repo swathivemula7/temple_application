@@ -164,7 +164,7 @@ nav {
   position: fixed;
   isolation: isolate;
   top: 0;
-  width: 100%;
+  width: 85%;
   max-width: var(--max-width);
   margin: auto;
   z-index: 9;
