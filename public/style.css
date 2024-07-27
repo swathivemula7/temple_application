@@ -1097,12 +1097,15 @@ ul.contact-info span {
 
 /* For screens wider than 576px */
 @media (min-width: 576px) {
-  .event__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* For screens wider than 1024px */
+@media (min-width: 1024px) {
+  .event__grid {
+    gap: 2rem;
   }
 }
 
