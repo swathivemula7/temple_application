@@ -1,6 +1,6 @@
 # Shree Ramalingeshwara Swamy Temple Website
 
-Welcome to the repository for the Shree Ramalingeshwara Swamy Temple website. This project showcases a modern, responsive website for the ancient 200-year-old Shivan temple located in Ramalingapuram, Tamil Nadu. The website features a contact form powered by Nodemailer, a chatbot with predefined keywords, and a voice feature using the Web Speech API.
+Welcome to the repository for the Shree Ramalingeshwara Swamy Temple website. This project showcases a modern, responsive website for the ancient 300-year-old Shivan temple located in Ramalingapuram, Tamil Nadu. The website features a contact form powered by Nodemailer, a chatbot with predefined keywords, and a voice feature using the Web Speech API.
 
 Features
 1. Homepage
