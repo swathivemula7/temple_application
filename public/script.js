@@ -219,6 +219,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   micBtn.addEventListener('click', startVoiceRecognition);
+  micButton.addEventListener('touchstart', startVoiceRecognition);
 
   function sendMessage() {
     const userMessage = chatboxInput.value.trim();
@@ -270,6 +271,10 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function startVoiceRecognition() {
+    if (!('SpeechRecognition' in window)) {
+      alert('Speech recognition is not supported in this browser.');
+      return;
+    }
     const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
     recognition.lang = 'en-US';
     recognition.interimResults = false;
