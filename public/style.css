@@ -305,7 +305,7 @@ nav {
  width: 100%; /* Adjust size as needed */
   height: 100%; /* Adjust size as needed */
     top: -3em; /* Ensure it starts from top */
-  left: 0.3em; /* Ensure it starts from left */
+  left: -0.3em; /* Ensure it starts from left */
   transform: translate(0,0);
  
 }
@@ -397,13 +397,12 @@ nav {
 }
 
 .highlight__header{
-  margin-left: -0.5em;
+  margin-left: -0.7em;
 }
 
 .highlight__container {
   padding-block: 0;
   display: grid;
-
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -411,7 +410,6 @@ nav {
   grid-column: 1/3;
   padding: 2rem 4rem;
   background-color: var(--white);
-  
 }
 
 .highlight__list {
@@ -429,6 +427,8 @@ nav {
   font-size: 1.2rem;
   font-weight: 500;
   color: var(--text-dark);
+  margin-left: -0.3em;
+
 }
 
 .highlight__list span {
