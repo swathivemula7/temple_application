@@ -14,11 +14,14 @@ Sanitization: Inputs are sanitized using sanitize-html to prevent XSS attacks.
 4. Chatbot
 Predefined Keywords: The chatbot can respond to specific keywords related to the temple.
 Voice Feature: Utilizes the Web Speech API to provide voice interaction capabilities, enhancing user engagement.
+
 Tech Stack
+
 Frontend
 HTML5: For the structure and content of the website.
 CSS3: For styling and layout.
 JavaScript: For interactivity and DOM manipulation.
+
 Backend
 Node.js: For server-side logic.
 Express.js: For building the server and handling requests.
