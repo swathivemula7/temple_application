@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   micBtn.addEventListener('click', startVoiceRecognition);
-  micButton.addEventListener('touchstart', startVoiceRecognition);
+  micBtn.addEventListener('touchstart', startVoiceRecognition);
 
   function sendMessage() {
     const userMessage = chatboxInput.value.trim();
