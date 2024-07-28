@@ -156,6 +156,8 @@ document.addEventListener('DOMContentLoaded', function () {
       .then(response => {
         if (response.ok) {
           alert('Email sent successfully!');
+          form.reset();
+
         } else {
           alert('Failed to send email.');
         }
