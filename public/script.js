@@ -257,12 +257,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function getResponse(message) {
 
-    if (message.includes('location') || message.includes('where') || message.includes('location of temple') || message.includes('address')) return responses['location'];
+    if (message.includes('location') || message.includes('reach') || message.includes('reaches') || message.includes('where') || message.includes('location of temple') || message.includes('address')) return responses['location'];
     if (message.includes('hours') || message.includes('time') || message.includes('timing')) return responses['timings'];
     if (message.includes('dhyana') || message.includes('spiritual practice') || message.includes('inner peace') || message.includes('mindfulness')) return responses['dhyana'];
     if (message.includes('meditation') || message.includes('meditative state') || message.includes('concentration') || message.includes('mental peace')) return responses['meditation'];
     if (message.includes('main god') || message.includes('main goddess') || message.includes('god') || message.includes('goddess')) return responses['god'];
-    if (message.includes('services') || message.includes('daily poojas') || message.includes('daily practices')) return responses['services'];
+    if (message.includes('services') || message.includes('poojas') || message.includes('special') || message.includes('daily practices')) return responses['services'];
     if (message.includes('events') || message.includes('functions') || message.includes('past')) return responses['events'];
     if (message.includes('about the temple') || message.includes('temple') || message.includes('name') || message.includes('details') || message.includes('history')) return responses['temple'];
     if (message.includes('hello') || message.includes('hi')) return responses['hello'];
@@ -271,11 +271,12 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function startVoiceRecognition() {
-    if (!('SpeechRecognition' in window)) {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SpeechRecognition) {
       alert('Speech recognition is not supported in this browser.');
       return;
     }
-    const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+  const recognition = new SpeechRecognition();
     recognition.lang = 'en-US';
     recognition.interimResults = false;
 
